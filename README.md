@@ -9,5 +9,7 @@ npx hardhat help
 npx hardhat test
 REPORT_GAS=true npx hardhat test
 npx hardhat node
-npx hardhat run scripts/deploy.js
+npx hardhat run --network localhost scripts/deploy.js
 ```
+
+The chain ID number used by Hardhat Network's blockchain. Default value: 31337
